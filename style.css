@@ -1,6 +1,47 @@
-* {
+#contenedor {
+  width: 1200px;
+  height: 1000px;
+  background-color: darkgray;
+  margin: auto;
   box-sizing: border-box;
 }
+.header {
+  width: 1200px;
+  height: 156px;
+  background: rgb(225, 132, 225);
+}
+.contenedorSecciones {
+  width: 1200px;
+  height: 356px;
+  background: rgb(64, 61, 64);
+}
+
+.seccion1 {
+  width: 600px;
+  height: 356px;
+  background: rgba(31, 135, 135, 0.418);
+  float: left;
+}
+
+.seccion2 {
+  width: 600px;
+  height: 356px;
+  background: rgba(156, 217, 217, 0.418);
+  float: right;
+}
+
+.seccion3 {
+  width: 1200px;
+  height: 356px;
+  background: rgba(211, 237, 237, 0.418);
+}
+
+.footer {
+  width: 1200px;
+  height: 156px;
+  background: rgba(4, 249, 249, 0.977);
+}
+
 body {
   font-size: 14px;
 }
